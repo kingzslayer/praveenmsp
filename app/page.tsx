@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Button from "@/components/button"
+import { EmailContact } from "@/utils/constants"
 
 const skills = [
   "JavaScript",
@@ -42,7 +43,7 @@ export default function Home() {
           </p>
         </div>
         <div>
-          <Link href="/about">
+          <Link href={EmailContact}>
             <Button>Hire Me</Button>
           </Link>
         </div>

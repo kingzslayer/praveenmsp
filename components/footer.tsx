@@ -1,3 +1,4 @@
+import { EmailContact, MobileContact } from "@/utils/constants"
 import { FaEnvelope, FaGithub, FaLinkedin, FaPhone } from "react-icons/fa6"
 
 const socialLinks = [
@@ -14,12 +15,12 @@ const socialLinks = [
   {
     icon: FaEnvelope,
     label: "praveenmsp23@gmail.com",
-    url: "mailto:praveenmsp23@gmail.com?subject=General%20Inquiry&body=Hi%20Praveen%20M,%0D%0A%0D%0AI%20came%20across%20your%20portfolio%20and%20would%20like%20to%20discuss%20about%20[reason].%0D%0A%0D%0ALooking%20forward%20to%20your%20response.%0D%0A%0D%0ABest%20regards,%0D%0A%0D%0A[Your%20Name]",
+    url: EmailContact,
   },
   {
     icon: FaPhone,
     label: "+91 9942080840",
-    url: "tel:+919942080840",
+    url: MobileContact,
   },
 ]
 
