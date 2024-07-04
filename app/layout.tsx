@@ -4,7 +4,6 @@ import { Josefin_Sans } from "next/font/google"
 import "@/styles/globals.css"
 import { LayoutProps } from "@/types/common"
 import Footer from "@/components/footer"
-import Header from "@/components/header"
 
 const josefin = Josefin_Sans({ subsets: ["latin"] })
 
@@ -21,9 +20,8 @@ export default function RootLayout({ children }: LayoutProps) {
     <html lang="en">
       <head />
       <body className={josefin.className}>
-        <div className="flex size-full flex-col items-center justify-center">
+        <div className="flex size-full flex-col items-center tracking-widest justify-center">
           <div className="flex size-full max-w-7xl flex-col p-4">
-            <Header />
             <main className="flex-1">{children}</main>
             <Footer />
           </div>

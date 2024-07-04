@@ -3,5 +3,5 @@
 @tailwind utilities;
 
 body {
-  @apply h-screen w-screen tracking-widest overflow-auto bg-black font-sans text-white antialiased;
+  @apply h-screen w-screen overflow-auto bg-black font-sans text-white antialiased;
 }
