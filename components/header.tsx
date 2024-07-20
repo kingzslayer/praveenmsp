@@ -10,7 +10,9 @@ interface HeaderProps {
 export default function Header({ title, href }: HeaderProps) {
   return (
     <header className="flex w-full max-w-7xl items-center justify-between">
-      <Link href={href ?? "/"}><h1 className="text-lg font-bold">{title}</h1></Link>
+      <Link href={href ?? "/"}>
+        <h1 className="text-lg font-bold">{title}</h1>
+      </Link>
       <Link href={MobileContact}>
         <Button>Contact Me</Button>
       </Link>

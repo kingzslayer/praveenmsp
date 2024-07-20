@@ -20,7 +20,7 @@ export default function RootLayout({ children }: LayoutProps) {
     <html lang="en">
       <head />
       <body className={josefin.className}>
-        <div className="flex size-full flex-col items-center tracking-widest justify-center">
+        <div className="flex size-full flex-col items-center justify-center tracking-widest">
           <div className="flex size-full max-w-7xl flex-col p-4">
             <main className="flex-1">{children}</main>
             <Footer />

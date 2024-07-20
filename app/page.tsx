@@ -4,17 +4,21 @@ import { EmailContact } from "@/utils/constants"
 import Header from "@/components/header"
 
 const skills = [
-  "JavaScript",
-  "React",
-  "Go lang",
-  "Node.js",
+  "Go",
   "Microservices",
-  "SQL/NoSQL",
   "Docker",
-  "AWS",
+  "React",
+  "SQL/NoSQL",
+  "JavaScript",
+  "Node.js",
+  "Cloud Services",
 ]
 
 const projects = [
+  {
+    name: "URL Wizard",
+    link: "https://praveenmsp.com/url-wizard",
+  },
   {
     name: "ZeroGate",
     link: "https://zerogate.com",
@@ -40,9 +44,9 @@ export default function Home() {
               Full Stack Developer
             </h3>
             <p className="w-full text-lg tracking-wide text-gray-200 md:w-3/4 md:text-xl">
-              I am a software engineer with a passion for creating innovative solutions. I have a
-              background in computer science and a strong interest in building secure web
-              applications.
+              I am a software engineer dedicated to creating innovative and secure web applications.
+              With a strong computer science background, I build efficient solutions across both
+              backend and frontend technologies.
             </p>
           </div>
           <div>
