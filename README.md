@@ -27,4 +27,4 @@ Check out some of the projects I've worked on:
 
 ## Contact
 
-Interested in collaborating? Feel free to [hire me](mailto:your-email@example.com).
+Interested in collaborating? Feel free to [hire me](mailto:praveenmsp23@gmail.com).
